@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Lattice Innovation</string>
+    <string name="just_title_description">just title description</string>
+    <string name="date_and_time">Date And Time</string>
+    <string name="desc">Desc</string>
+    <string name="d">D</string>
+    <string name="search_in_feed">Search in feed</string>
+    <string name="todo">TODO</string>
 </resources>

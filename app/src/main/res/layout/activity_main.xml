@@ -15,10 +15,10 @@
         android:drawableStart="@drawable/search_logo"
         android:gravity="start|center"
         android:hint="@string/search_in_feed"
-        android:textColor="@color/blue"
-        android:textColorHint="@color/blue"
         android:importantForAutofill="no"
-        android:inputType="text" />
+        android:inputType="text"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/blue" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycle"
