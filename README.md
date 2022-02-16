@@ -87,6 +87,26 @@ dependencies {
 
 }
 
+# Specific reasons to use dependencies
+# Dagger And Hilt
+The dependency injection technique enables you to improve this even further. It provides a way to separate the creation of an object from its usage.
+By doing that, we can replace a dependency without changing any code and it also reduces the boilerplate code in your business logic
+    
+# Glide - Use
+We can reduce process of downloading and save in local file then we need to create bitmap
+But if we use Glide library then we need not to write much code.
+
+# Pagination library
+The Paging Library helps you load and display small chunks of data at a time. Loading partial data on demand reduces usage of network bandwidth and system resources
+
+# Retrofit dependency
+Retrofit dependency which will be used to make network calls
+GSON library which is used to convert POJO to JSON and vice versa
+okhttp library used to observe the api call logs on LogCat
+
+# Live data & View Model
+Live data & View Model both are important parts of Android MVVM architecture
+
 # Screenshot 📺 
 
 
