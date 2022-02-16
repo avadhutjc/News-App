@@ -107,13 +107,12 @@ okhttp library used to observe the api call logs on LogCat
 # Live data & View Model
 Live data & View Model both are important parts of Android MVVM architecture
 
-# Screenshot 📺 
+# App Video  📺
+
+https://user-images.githubusercontent.com/60433739/154209200-f5b0828c-4d43-4cd1-9392-4945c6f2b588.mov
 
 
-
-# App Video
-
-
+https://user-images.githubusercontent.com/60433739/154209350-beeee288-a20e-4b43-918f-3932c4840524.mov
 
 
 
