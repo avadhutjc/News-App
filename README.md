@@ -109,13 +109,11 @@ Live data & View Model both are important parts of Android MVVM architecture
 
 # App Video  📺
 
-https://user-images.githubusercontent.com/60433739/154209200-f5b0828c-4d43-4cd1-9392-4945c6f2b588.mov
+
+https://user-images.githubusercontent.com/60433739/154215731-eecda635-c9b3-49c1-a134-6905334e40ab.mov
 
 
-https://user-images.githubusercontent.com/60433739/154209350-beeee288-a20e-4b43-918f-3932c4840524.mov
-
-
-
+https://user-images.githubusercontent.com/60433739/154215740-bb465d92-8bc4-4262-8c8a-464046f6c5f4.mov
 
 
 
