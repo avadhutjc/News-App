@@ -82,7 +82,7 @@ dependencies {
 
     kapt 'com.github.bumptech.glide:compiler:4.12.0'
 
-    //Image layout occurs in circular passion
+    //Image circular
     implementation 'de.hdodenhof:circleimageview:3.1.0'
 
 }
@@ -106,6 +106,9 @@ okhttp library used to observe the api call logs on LogCat
 
 # Live data & View Model
 Live data & View Model both are important parts of Android MVVM architecture
+
+# Circular
+Image layout occurs in circular passion
 
 # App Video  📺
 
