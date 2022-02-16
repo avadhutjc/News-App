@@ -2,36 +2,17 @@ package com.ajc.lattice.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
-import com.ajc.lattice.model.local.NewsEntity
-import com.ajc.lattice.model.remote.ResponseDTO
+import androidx.paging.PagingData
+import com.ajc.lattice.model.remote.Article
 import com.ajc.lattice.repository.DataRepository
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
+import dagger.hilt.android.lifecycle.HiltViewModel
+import javax.inject.Inject
 
-class MainViewModel(private val dataRepository: DataRepository) : ViewModel() {
+@HiltViewModel
+class MainViewModel @Inject constructor(private val movieRepository: DataRepository) :
+    ViewModel() {
 
-    fun createTransaction() {
-        viewModelScope.launch(Dispatchers.IO) {
-            dataRepository.getData()
-        }
-    }
-
-    val user: LiveData<ResponseDTO> get() = dataRepository.user
-
-    fun insertDataInDb(itunesDbTable: NewsEntity) {
-        dataRepository.insertDataInDb(itunesDbTable)
-    }
-
-    fun deleteDataFromDb() {
-        dataRepository.deleteDataFromDb()
-    }
-
-    fun getDataFromDb() {
-        dataRepository.getDataFromDb()
-    }
-
-    fun getData(): LiveData<List<NewsEntity>> {
-        return dataRepository.getDataFromDb()
+    fun searchNews(): LiveData<PagingData<Article>> {
+        return movieRepository.getMovieResults()
     }
 }
