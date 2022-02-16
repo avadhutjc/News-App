@@ -7,8 +7,8 @@ import com.ajc.lattice.model.remote.api.ApiService
 import javax.inject.Inject
 
 class DataRepository @Inject constructor(private val apiService: ApiService) {
-    fun getMovieResults() =
+    fun getNewsResults() =
         Pager(config = PagingConfig(pageSize = 100), pagingSourceFactory = {
-            MovieSourceRecycler(apiService) }
+            NewsSourceRecycler(apiService) }
         ).liveData
 }

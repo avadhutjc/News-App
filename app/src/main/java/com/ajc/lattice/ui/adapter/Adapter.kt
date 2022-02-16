@@ -11,7 +11,6 @@ import com.ajc.lattice.model.remote.Article
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.item_layout.view.*
 
-
 class Adapter(private val onClickMovie: OnClick) :
     PagingDataAdapter<Article, Adapter.MovieViewHolder>(diffCallback = diffUtil) {
 
@@ -52,6 +51,5 @@ class Adapter(private val onClickMovie: OnClick) :
                 oldItem == newItem
         }
     }
-
 
 }

@@ -13,6 +13,6 @@ class MainViewModel @Inject constructor(private val movieRepository: DataReposit
     ViewModel() {
 
     fun searchNews(): LiveData<PagingData<Article>> {
-        return movieRepository.getMovieResults()
+        return movieRepository.getNewsResults()
     }
 }
