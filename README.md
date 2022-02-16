@@ -92,7 +92,7 @@ dependencies {
 The dependency injection technique enables you to improve this even further. It provides a way to separate the creation of an object from its usage.
 By doing that, we can replace a dependency without changing any code and it also reduces the boilerplate code in your business logic
     
-# Glide - Use
+# Glide 
 We can reduce process of downloading and save in local file then we need to create bitmap
 But if we use Glide library then we need not to write much code.
 
