@@ -51,7 +51,7 @@ class HeadlinesScreen : AppCompatActivity(), OnClick {
         intent.putExtra("release", result.publishedAt)
         intent.putExtra("language", result.content)
         intent.putExtra("image", result.urlToImage)
-        intent.putExtra("vote", result.author)
+        intent.putExtra("name1", result.source.name)
         startActivity(intent)
     }
 }

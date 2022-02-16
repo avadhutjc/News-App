@@ -61,13 +61,13 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
                 android:gravity="center"
-                android:text="Preparation Time : "
+                android:text="News Channel : "
                 android:textColor="@color/purple_200"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tvDetail"
+                android:id="@+id/tvName1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/next"
@@ -84,12 +84,12 @@
                 android:id="@+id/tvDate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/tvDetail"
+                android:layout_below="@id/tvName1"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:gravity="center"
-                android:text="Language :"
+                android:text="Date :"
                 android:textColor="@color/purple_200"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -103,7 +103,7 @@
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="20dp"
                 android:gravity="center"
-                android:text="Lang"
+                android:text="Date :"
                 android:textColor="@color/white"
                 android:textSize="16sp" />
 

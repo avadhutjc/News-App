@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.DiffUtil
 import com.ajc.lattice.model.remote.Article
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.item_layout.view.*
+import kotlinx.android.synthetic.main.news_details.view.*
 
 class Adapter(private val onClickMovie: OnClick) :
     PagingDataAdapter<Article, Adapter.MovieViewHolder>(diffCallback = diffUtil) {
@@ -32,11 +33,10 @@ class Adapter(private val onClickMovie: OnClick) :
                 CardView1.setOnClickListener {
                     onClickMovie.setOnClick(resultsDTO)
                 }
-
                 tvDate1.text = resultsDTO.publishedAt
                 tvTitle1.text = resultsDTO.title
                 tvTitle3.text = resultsDTO.description
-
+                tvName.text = resultsDTO.source.name
                 Glide.with(crdview).load(resultsDTO.urlToImage).into(crdview)
             }
         }
