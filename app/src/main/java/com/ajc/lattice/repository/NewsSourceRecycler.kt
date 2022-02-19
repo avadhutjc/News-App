@@ -7,8 +7,7 @@ import com.ajc.lattice.model.remote.ResponseDTO
 import com.ajc.lattice.model.remote.api.ApiService
 import retrofit2.Response
 
-class NewsSourceRecycler(private val apiService: ApiService) :
-    PagingSource<Int, Article>() {
+class NewsSourceRecycler(private val apiService: ApiService) : PagingSource<Int, Article>() {
 
     override suspend fun load(params: LoadParams<Int>): LoadResult<Int, Article> {
         return try {

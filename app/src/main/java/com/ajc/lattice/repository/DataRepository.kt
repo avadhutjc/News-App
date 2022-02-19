@@ -8,7 +8,8 @@ import javax.inject.Inject
 
 class DataRepository @Inject constructor(private val apiService: ApiService) {
     fun getNewsResults() =
-        Pager(config = PagingConfig(pageSize = 100), pagingSourceFactory = {
+        Pager(config = PagingConfig(pageSize = 100),
+            pagingSourceFactory = {
             NewsSourceRecycler(apiService) }
         ).liveData
 }
